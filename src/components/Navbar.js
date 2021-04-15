@@ -1,10 +1,11 @@
 import React from "react";
+import JuanLogo from "../jg-logo.jpg";
 
 const Navbar = () => {
   return (
-    <nav className="navbar navbar-expand-lg navbar-light bg-light">
+    <nav className="navbar navbar-expand-lg navbar-light bg-dark">
       <a className="navbar-brand" href="#">
-        Navbar
+        <img src={JuanLogo} className="jg-logo" alt="logo"></img>
       </a>
       <button
         className="navbar-toggler"
@@ -19,7 +20,7 @@ const Navbar = () => {
       </button>
 
       <div className="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul className="navbar-nav mr-auto">
+        <ul className="navbar-nav ml-auto">
           <li className="nav-item active">
             <a className="nav-link" href="#">
               Home <span className="sr-only">(current)</span>
