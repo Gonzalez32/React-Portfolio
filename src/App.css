@@ -37,8 +37,43 @@
   }
 }
 
+/* Importing Google fonts */
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap");
+
+:root {
+  --primary-white: #fff;
+}
+
+body {
+  font-family: "Oswald" sans-serif;
+}
+
 /* **************** NAVBAR **************** */
 .jg-logo {
   width: 60px;
   border-radius: 50%;
+}
+
+/* **************** NAVBAR LINKS **************** */
+nav a.nav-link {
+  /* font-weight: 500; */
+  letter-spacing: 0.9px;
+  cursor: pointer;
+}
+
+nav ul li {
+  text-transform: uppercase;
+}
+
+.navbar-nav > li > a {
+  /* --primary-white needed to be overwriten with !important */
+  color: var(--primary-white) !important;
+  margin-left: 0.75rem;
+  margin-right: 0.75rem;
+}
+
+.navbar-brand {
+  max-width: 17.25rem;
+  padding: 0 !important;
+  /* height: 4rem !important; */
 }
