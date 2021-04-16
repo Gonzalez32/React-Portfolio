@@ -1,5 +1,8 @@
 import React from "react";
 import JuanLogo from "../jg-logo.jpg";
+// REACT FONTAWESOME IMPORTS NPM
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+import { faBars } from "@fortawesome/free-solid-svg-icons"
 
 const Navbar = () => {
   return (
@@ -17,7 +20,8 @@ const Navbar = () => {
                 aria-expanded="false"
                 aria-label="Toggle navigation"
             >
-                <span className="navbar-toggler-icon"></span>
+                {/* <span className="navbar-toggler-icon"></span> */}
+                <FontAwesomeIcon icon={faBars} style={{ color: "#fff" }} />
             </button>
 
             <div className="collapse navbar-collapse" id="navbarSupportedContent">

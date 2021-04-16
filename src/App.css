@@ -43,7 +43,7 @@
 /* **************** ROOT VAR **************** */
 :root {
   --primary-white: #fff;
-  --primary-orange: #f9ab00;
+  --primary-yellow: #ffff00;
   --primary-dark: rgba(255, 255, 255, 0);
 }
 
@@ -80,16 +80,16 @@ nav ul li {
 .navbar-brand {
   max-width: 17.25rem;
   padding: 0 !important;
-  /* height: 4rem !important; */
+  height: 4rem !important;
 }
 
 /* this will outline a bar above the links */
 .navbar-nav > li > a.active,
 .navbar-nav > li > a.active:focus {
-  border-top: 4px solid var(--primary-orange);
+  border-top: 4px solid var(--primary-yellow);
 }
 
 /* Hightlight the links when hovering */
 .navbar-nav > li > a:hover {
-  border-top: 4px solid var(--primary-orange);
+  border-top: 4px solid var(--primary-yellow);
 }
