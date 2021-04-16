@@ -40,8 +40,11 @@
 /* Importing Google fonts */
 @import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap");
 
+/* **************** ROOT VAR **************** */
 :root {
   --primary-white: #fff;
+  --primary-orange: #f9ab00;
+  --primary-dark: rgba(255, 255, 255, 0);
 }
 
 body {
@@ -68,6 +71,8 @@ nav ul li {
 .navbar-nav > li > a {
   /* --primary-white needed to be overwriten with !important */
   color: var(--primary-white) !important;
+  /* This will help make the links NOT bounce down when clicked */
+  border-top: 4px solid var(--primary-dark);
   margin-left: 0.75rem;
   margin-right: 0.75rem;
 }
@@ -76,4 +81,15 @@ nav ul li {
   max-width: 17.25rem;
   padding: 0 !important;
   /* height: 4rem !important; */
+}
+
+/* this will outline a bar above the links */
+.navbar-nav > li > a.active,
+.navbar-nav > li > a.active:focus {
+  border-top: 4px solid var(--primary-orange);
+}
+
+/* Hightlight the links when hovering */
+.navbar-nav > li > a:hover {
+  border-top: 4px solid var(--primary-orange);
 }
