@@ -11,6 +11,7 @@ const Navbar = () => {
             <a className="navbar-brand" href="#">
                 <img src={JuanLogo} className="jg-logo" alt="logo"></img>
             </a>
+            
             <button
                 className="navbar-toggler"
                 type="button"
