@@ -1,5 +1,5 @@
 import React from "react";
-import JuanLogo from "../jg-logo.jpg";
+import JuanLogo from "../Image/jg-logo.jpg";
 // REACT FONTAWESOME IMPORTS NPM
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faBars } from "@fortawesome/free-solid-svg-icons"
