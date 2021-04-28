@@ -47,6 +47,7 @@
   --primary-dark: rgba(255, 255, 255, 0);
   --primary-red: #ef4035;
   --primary-hover-red: #f33501;
+  /* --primary- */
 }
 
 body {
@@ -174,5 +175,31 @@ nav ul li {
 @media (max-width: 768px) {
   .particles-canvas {
     display: none;
+  }
+}
+
+/* **************** ABOUT ME PROFILE PIC **************** */
+.photo-wrap {
+  display: flex;
+  justify-content: center;
+  padding: 2px;
+  margin-bottom: 32px;
+}
+
+.img-thumbnail-profile {
+  width: 16rem;
+  border-radius: 50%;
+  padding: 0.3rem;
+  border: 1px solid var(--primary-red);
+}
+
+.header-aboutme {
+  color: var(--primary-hover-red);
+  text-transform: uppercase;
+}
+
+@media (max-width: 468px) {
+  .img-thumbnail-profile {
+    width: 10rem;
   }
 }
