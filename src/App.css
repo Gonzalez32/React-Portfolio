@@ -215,3 +215,9 @@ nav ul li {
   color: var(--primary-hover-red);
   text-transform: uppercase;
 }
+
+.services .circle {
+  position: relative;
+  margin: 0.375rem;
+  background: var(--primary-yellow);
+}
