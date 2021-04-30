@@ -1,13 +1,18 @@
 import React from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faFacebookF, faGoogle } from "@fortawesome/free-brands-svg-icons";
+import { faDesktop, faFileCode } from "@fortawesome/free-solid-svg-icons";
+
 
 const Services = () => {
     return (
         <div className="services">
-            <h1 className="py-5">
+            <h1 className="py-5">My Services</h1>
                 <div className="container">
                     <div className="row">
                         <div className="col-md-3 col-sm-6">
                             <div className="box">
+                               <div className="circle"> <FontAwesomeIcon icon={faDesktop} size="2x"/> </div>
                                 <h3>Web Designs</h3>
                                 <p>I approach each project individually and always focus on the result.</p>
                             </div>
@@ -15,6 +20,7 @@ const Services = () => {
                         {/* {-} */}
                         <div className="col-md-3 col-sm-6">
                             <div className="box">
+                            <div className="circle"> <FontAwesomeIcon icon={faFileCode} size="2x"/> </div>
                                 <h3>Web Development</h3>
                                 <p>Your website will be build with the newest technologies.</p>
                             </div>
@@ -22,6 +28,7 @@ const Services = () => {
                         {/* {-} */}
                         <div className="col-md-3 col-sm-6">
                             <div className="box">
+                            <div className="circle"> <FontAwesomeIcon icon={faGoogle} size="2x"/> </div>
                                 <h3>Google</h3>
                                 <p>Your service or product will apper at the top of the google search.</p>
                             </div>
@@ -29,8 +36,7 @@ const Services = () => {
                         {/* {-} */}
                     </div>
                 </div>
-            </h1>
-        </div>
+            </div>
     )
 }
 
