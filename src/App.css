@@ -48,6 +48,8 @@
   --primary-red: #ef4035;
   --primary-hover-red: #f33501;
   --primary-light-grey: #f4f4f4;
+  --primary-grey: #ccd1d9;
+  --primary-dark-grey: #666666;
 }
 
 body {
@@ -259,4 +261,45 @@ nav ul li {
 
 .services .box:hover p {
   color: var(--primary-white);
+}
+
+/* **************** EXPERIENCE **************** */
+
+.experience-wrapper {
+  position: absolute;
+  padding: 3.125rem;
+  overflow: hidden;
+}
+
+.experience h1 {
+  text-transform: uppercase;
+  color: var(--primary-red);
+}
+
+.experience-wrapper::before {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 50%;
+  margin-left: -0.0625rem;
+  width: 0.125rem;
+  height: 100%;
+  background: var(--primary-grey);
+  z-index: 1;
+}
+
+.timeline-block {
+  width: calc(50% + 0.5rem);
+  display: flex;
+  justify-content: space-between;
+  clear: both;
+}
+
+.timeline-block-right {
+  float: right;
+}
+
+.timeline-block-left {
+  float: left;
+  direction: ltr;
 }
