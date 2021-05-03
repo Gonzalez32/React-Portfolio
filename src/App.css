@@ -237,4 +237,26 @@ nav ul li {
 }
 
 .services .box {
+  height: 16rem;
+  border-bottom: 0.3125rem solid var(--primary-red);
+  padding: 0.625rem;
+  margin-bottom: 1.875rem;
+  background: var(--primary-white);
+}
+
+.services .box:hover {
+  background: var(--primary-hover-red);
+  border-bottom: 0.3125rem solid var(--primary-dark);
+}
+
+.services .box:hover .icon {
+  color: var(--primary-dark);
+}
+
+.services .box:hover .circle {
+  background: var(--primary-white);
+}
+
+.services .box:hover p {
+  color: var(--primary-white);
 }
