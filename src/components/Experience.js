@@ -34,8 +34,7 @@ const Experience = () => {
                     <div className="timeline-content">
                         <h3>2017-2020</h3>
                         <p>
-                            here it goes more info will incress this message and should even out the layout hopefully.
-                            Also may the odds be in your most ever favor!
+                            I LOVE YOU SO MUCH HAYLEY GONZALEZ AND ALEX GONZALEZ! 
                         </p>
                     </div> 
                 </div>

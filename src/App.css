@@ -265,6 +265,10 @@ nav ul li {
 
 /* **************** EXPERIENCE **************** */
 
+.experience {
+  padding: 0.7rem;
+}
+
 .experience-wrapper {
   position: relative;
   padding: 3.125rem 0;
@@ -325,4 +329,25 @@ nav ul li {
   margin-top: 0.3125rem;
   color: var(--primary-red);
   font-weight: 900;
+}
+
+/* -------------- MEDIA -------------- */
+
+@media (max-width: 768px) {
+  .experience .container {
+    padding-left: 0;
+  }
+  .experience-wrapper::before {
+    left: 0.5rem;
+    margin-bottom: 1.875rem;
+  }
+  .timeline-block-right {
+    float: none;
+    width: 100%;
+  }
+  .timeline-block-left {
+    float: none;
+    width: 100%;
+    direction: ltr;
+  }
 }
