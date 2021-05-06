@@ -1,7 +1,10 @@
 import React from "react";
-import fallingstar from "../Image/fallingstar.png"
-import newpost from "../Image/newpost.png"
-import tapmate from "../Image/tapmate.png"
+import fallingstar from "../Image/fallingstar.png";
+import newpost from "../Image/newpost.png";
+import tapmate from "../Image/tapmate.png";
+// FONTAWESOME IMPORTS
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faSearchPlus } from "@fortawesome/free-solid-svg-icons";
 
 
 const Portfolio = () => {
@@ -13,16 +16,19 @@ const Portfolio = () => {
                     <div className="portfolio-image-box">
                         <img src={fallingstar} alt="falling star project..." className="portfolio-image"/>
                         <div className="overflow"></div>
+                        <FontAwesomeIcon className="portfolio-icon" icon={faSearchPlus} />
                     </div>
                 {/* - */}
                     <div className="portfolio-image-box">
                         <img src={newpost} alt="newpost project..." className="portfolio-image"/>
                         <div className="overflow"></div>
+                        <FontAwesomeIcon className="portfolio-icon" icon={faSearchPlus} />
                     </div>    
                 {/* - */}
                     <div className="portfolio-image-box">
                         <img src={tapmate} alt="tapmate project..." className="portfolio-image"/>
                         <div className="overflow"></div>
+                        <FontAwesomeIcon className="portfolio-icon" icon={faSearchPlus} />
                     </div>    
                 </div>
             </div>
