@@ -50,6 +50,7 @@
   --primary-light-grey: #f4f4f4;
   --primary-grey: #ccd1d9;
   --primary-dark-grey: #666666;
+  --primary-black: #000000;
 }
 
 body {
@@ -351,4 +352,41 @@ nav ul li {
     width: 100%;
     direction: ltr;
   }
+}
+
+/* **************** PORTFOLIO **************** */
+
+.portfolio-wrapper {
+  background: var(--primary-light-grey);
+  padding: 3rem 0;
+}
+
+.portfolio-image {
+  width: 15rem;
+  height: 8rem;
+  border: 1px solid var(--primary-red);
+  padding: 0 0.5rem;
+}
+
+.portfolio-image-box {
+  position: relative;
+  margin: 1rem;
+}
+
+/* **************** OVERFLOW **************** */
+
+.overflow {
+  position: absolute;
+  opacity: 0;
+  background: var(--primary-black);
+  width: 15rem;
+  height: 8rem;
+  top: 0;
+  border: 1px solid var(--primary-red);
+  cursor: pointer;
+}
+
+.portfolio-image-box:hover .overflow {
+  opacity: 60%;
+  transition: 0.3s ease-in-out;
 }
