@@ -399,3 +399,9 @@ nav ul li {
   color: var(--primary-red);
   font-size: 1.5rem;
 }
+
+.portfolio-image-box:hover .portfolio-icon {
+  opacity: 70%;
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
+}
