@@ -7,6 +7,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faSearchPlus } from "@fortawesome/free-solid-svg-icons";
 // REACT POPUPBOX
 import { PopupboxManager, PopupboxContainer } from "react-popupbox";
+import "react-popupbox/dist/react-popupbox.css";
 
 
 const Portfolio = () => {
@@ -15,7 +16,7 @@ const Portfolio = () => {
     const popupboxforfallingstar = () => {
         const content = (
             <>
-                <img src={fallingstar} alt="Falling Star Project..."/>
+                <img className="portfolio-image-popupbox" src={fallingstar} alt="Falling Star Project..."/>
                 <p>This project Is build with HTML, CSS, and JavaScript</p>
                 <b>GitHub:</b> <a href="" className="hyper-link" onClick={ () => window.open("https://github.com/Gonzalez32/FALLING-STAR") }>https://github.com/Gonzalez32/FALLING-STAR</a>
             </>
@@ -24,7 +25,12 @@ const Portfolio = () => {
     }
 
     const popupboxConfigFallingStar = {
-
+        titleBar: {
+            enable: true,
+            text: "Falling Star Project."
+        },
+        fadeIn: true,
+        fadeInSpeed: 500
     }
     return (
         <div className="portfolio-wrapper">
