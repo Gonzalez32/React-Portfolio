@@ -32,6 +32,53 @@ const Portfolio = () => {
         fadeIn: true,
         fadeInSpeed: 500
     }
+
+    // NEWPOST
+    const popupboxfornewpost = () => {
+        const content = (
+            <>
+                <img className="portfolio-image-popupbox" src={newpost} alt="New Post Project..."/>
+                <p>This project Is build with HTML, CSS, and JavaScript</p>
+                <b>GitHub:</b> <a href="" className="hyper-link" onClick={ () => window.open("https://github.com/Gonzalez32/Newpost") }>https://github.com/Gonzalez32/Newpost</a>
+                <br />
+                <b>Demo:</b> <a href="" className="hyper-link" onClick={ () => window.open("newpostpost.herokuapp.com/") }>newpostpost.herokuapp.com/</a>
+            </>
+        )
+        PopupboxManager.open({content})
+    }
+
+    const popupboxConfigNewPost = {
+        titleBar: {
+            enable: true,
+            text: "New Post Project."
+        },
+        fadeIn: true,
+        fadeInSpeed: 500
+    }
+
+    // TAPMATE
+    const popupboxfortapmate = () => {
+        const content = (
+            <>
+                <img className="portfolio-image-popupbox" src={tapmate} alt="Tapmate Project..."/>
+                <p>This project Is build with HTML, CSS, and JavaScript</p>
+                <b>GitHub:</b> <a href="" className="hyper-link" onClick={ () => window.open("https://github.com/Gonzalez32/Tapmate") }>https://github.com/Gonzalez32/Tapmate</a>
+                <br />
+                <b>Demo:</b> <a href="" className="hyper-link" onClick={ () => window.open("tap-mate.herokuapp.com/") }>tap-mate.herokuapp.com/</a>
+            </>
+        )
+        PopupboxManager.open({content})
+    }
+
+    const popupboxConfigTapmate = {
+        titleBar: {
+            enable: true,
+            text: "Tapmate Project."
+        },
+        fadeIn: true,
+        fadeInSpeed: 500
+    }
+
     return (
         <div className="portfolio-wrapper">
             <div className="container">
@@ -43,13 +90,13 @@ const Portfolio = () => {
                         <FontAwesomeIcon className="portfolio-icon" icon={faSearchPlus} />
                     </div>
                 {/* - */}
-                    <div className="portfolio-image-box">
+                    <div className="portfolio-image-box" onClick={popupboxfornewpost}>
                         <img src={newpost} alt="newpost project..." className="portfolio-image"/>
                         <div className="overflow"></div>
                         <FontAwesomeIcon className="portfolio-icon" icon={faSearchPlus} />
                     </div>    
                 {/* - */}
-                    <div className="portfolio-image-box">
+                    <div className="portfolio-image-box" onClick={popupboxfortapmate}>
                         <img src={tapmate} alt="tapmate project..." className="portfolio-image"/>
                         <div className="overflow"></div>
                         <FontAwesomeIcon className="portfolio-icon" icon={faSearchPlus} />
@@ -57,6 +104,8 @@ const Portfolio = () => {
                 </div>
             </div>
             <PopupboxContainer {...popupboxConfigFallingStar}/>
+            <PopupboxContainer {...popupboxConfigNewPost}/>
+            <PopupboxContainer {...popupboxConfigTapmate}/>
         </div>
     )
 }
