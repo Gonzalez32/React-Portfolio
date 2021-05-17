@@ -453,3 +453,21 @@ nav ul li {
     width: 30%;
   }
 }
+
+/* **************** CONTACTS COMPONENT **************** */
+
+.contacts {
+  background: var(--primary-dark);
+  padding: 3rem 0;
+}
+
+.contact-me {
+  color: var(--primary-red);
+  padding: 1.3rem 0;
+  text-transform: uppercase;
+}
+
+.contacts p {
+  color: var(--primary-light-grey);
+  font-size: 1.2rem;
+}
