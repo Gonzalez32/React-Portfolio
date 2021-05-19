@@ -548,3 +548,26 @@ textarea.form-control {
     padding: 0 0.4rem;
   }
 }
+
+/* ************* FOOTER COMPONENT ************* */
+
+.footer {
+  background: var(--primary-black);
+  color: var(--primary-dark-grey);
+  padding: 3rem;
+}
+
+.footer a {
+  text-decoration: none;
+  color: var(--primary-dark-grey);
+}
+
+.footer a:hover {
+  text-decoration: none;
+  color: var(--primary-red);
+  cursor: pointer;
+}
+
+.footer p {
+  margin-bottom: 0;
+}
