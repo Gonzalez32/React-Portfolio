@@ -1,8 +1,13 @@
 import React from "react";
+import {
+    LinkedinShareButton,
+    LinkedinIcon,
+
+} from "react-share";
 
 const Footer = () => {
     return (
-        <div className="footer">
+        <div id="footer" className="footer">
             <div className="container">
                 <div className="row">
                     <div className="col-lg-4 col-md-6 col-sm-6">
@@ -15,6 +20,7 @@ const Footer = () => {
                         <div className="d-flex">
                             <p>Juangonzalezrose@gmail.com</p>
                         </div>
+                        <br />
                     </div>
                     <div className="col-lg-3 col-md-2 col-sm-6">
                         <div className="row">
@@ -33,8 +39,24 @@ const Footer = () => {
                                 <a href="" className="footer-nav">Contacts</a>
                             </div>
                         </div>
+                        <br />
+                    </div>
+                    <div className="col-lg-5 col-md-5 col-sm-6 align-items-center">
+                        <div className="d-flex justify-content-center">
+                            <LinkedinShareButton
+                                url={"https://www.linkedin.com/in/juan-gonzalez93/"}
+                                quote={"FullStack Developer"}
+                                hashtag="#javascript"
+                            >
+                                <LinkedinIcon className="mx-3" size={36} />
+                            </LinkedinShareButton>
+                        </div>
                     </div>
                 </div>
+                    <p className="pt-5 text-center">
+                        Copyright&copy;
+                        {new Date().getFullYear()}&nbsp;Juan Gonzalez | All Rights Reserved
+                    </p>
             </div>
         </div>
     )
