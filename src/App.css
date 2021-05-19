@@ -111,7 +111,7 @@ nav ul li {
   background: url(./Image/darkrainbowlaptop.jpeg) no-repeat;
   background-size: cover;
   background-position: center;
-  height: 90vh;
+  height: 100vh;
 }
 
 .main-info {
@@ -408,6 +408,10 @@ nav ul li {
   opacity: 70%;
   transition: 0.3s ease-in-out;
   cursor: pointer;
+}
+
+.popupbox-wrapper {
+  margin-top: 5rem;
 }
 
 /* **************** OVERFLOW POPUPBOX **************** */
