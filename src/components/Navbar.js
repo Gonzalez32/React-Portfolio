@@ -3,8 +3,8 @@ import JuanLogo from "../Image/jg-logo.jpg";
 // REACT-SCROLL //
 import {Link} from "react-scroll";
 // REACT FONTAWESOME IMPORTS NPM
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import { faBars } from "@fortawesome/free-solid-svg-icons"
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faBars } from "@fortawesome/free-solid-svg-icons";
 
 const Navbar = () => {
   return (
@@ -38,11 +38,11 @@ const Navbar = () => {
                     About
                     </Link>
                 </li>
-                <li className="nav-item">
+                {/* <li className="nav-item">
                     <Link smooth={true} to="services" offset={-80} className="nav-link" href="#">
                     Services
                     </Link>
-                </li>
+                </li> */}
                 <li className="nav-item">
                     <Link smooth={true} to="experience" offset={-80} className="nav-link" href="#">
                     Experience

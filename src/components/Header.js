@@ -6,18 +6,18 @@ const Header = () => {
     return (
         <div id="home" className="header-wraper">
             <div className="main-info">
-                <h1>Web Development & website services</h1>
+                <h1>Welcome to my portfolio</h1>
                 <Typed
                     className="typed-text"
-                    strings={["Web Design", "Web Development", "SMM", "Clients Ads"]}
-                    typeSpeed={40}
+                    strings={["Web Design", "FullStack Developer", "Web Development", "Passionate ❤️"]}
+                    typeSpeed={50}
                     backSpeed={60}
                     loop
                 />
-                <a href="#" className="btn-main-offer">contact me here</a>
+                {/* <a href="#" className="btn-main-offer">contact me here</a> */}
             </div>
         </div>
     )
 }
 
-export default Header
+export default Header;

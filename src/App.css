@@ -268,6 +268,7 @@ nav ul li {
 /* **************** EXPERIENCE **************** */
 
 .experience {
+  background: var(--primary-light-grey);
   padding: 0.7rem;
 }
 
@@ -357,7 +358,7 @@ nav ul li {
 /* **************** PORTFOLIO **************** */
 
 .portfolio-wrapper {
-  background: var(--primary-light-grey);
+  /* background: var(--primary-light-grey); */
   padding: 3rem 0;
 }
 
