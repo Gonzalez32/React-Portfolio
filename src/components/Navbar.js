@@ -8,7 +8,7 @@ import { faBars } from "@fortawesome/free-solid-svg-icons"
 
 const Navbar = () => {
   return (
-    <nav className="navbar navbar-expand-lg navbar-light bg-dark">
+    <nav className="navbar navbar-expand-lg navbar-light bg-dark fixed-top">
         <div className="container">
             <a className="navbar-brand" href="#">
                 <img src={JuanLogo} className="jg-logo" alt="logo"></img>
@@ -34,27 +34,27 @@ const Navbar = () => {
                     </Link>
                 </li>
                 <li className="nav-item">
-                    <Link smooth={true} to="about" className="nav-link" href="#">
+                    <Link smooth={true} to="about" offset={-80} className="nav-link" href="#">
                     About
                     </Link>
                 </li>
                 <li className="nav-item">
-                    <Link smooth={true} to="services" className="nav-link" href="#">
+                    <Link smooth={true} to="services" offset={-80} className="nav-link" href="#">
                     Services
                     </Link>
                 </li>
                 <li className="nav-item">
-                    <Link smooth={true} to="experience" className="nav-link" href="#">
+                    <Link smooth={true} to="experience" offset={-80} className="nav-link" href="#">
                     Experience
                     </Link>
                 </li>
                 <li className="nav-item">
-                    <Link smooth={true} to="portfolio" className="nav-link" href="#">
+                    <Link smooth={true} to="portfolio" offset={-80} className="nav-link" href="#">
                     Portfolio
                     </Link>
                 </li>
                 <li className="nav-item">
-                    <Link smooth={true} to="contact" className="nav-link" href="#">
+                    <Link smooth={true} to="contact" offset={-80} className="nav-link" href="#">
                     Contact
                     </Link>
                 </li>
