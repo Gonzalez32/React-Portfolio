@@ -4,6 +4,8 @@ import {
     LinkedinIcon,
 
 } from "react-share";
+import {GoMarkGithub} from "react-icons/go";
+
 
 const Footer = () => {
     return (
@@ -12,13 +14,14 @@ const Footer = () => {
                 <div className="row">
                     <div className="col-lg-4 col-md-6 col-sm-6">
                         <div className="d-flex">
-                            <p>City Of Aurora</p>
+                            <p>Aurora City Of Lights</p>
                         </div>
                         <div className="d-flex">
                             <a href="tel:(360) 809-3218">(360) 809-3218</a>
                         </div>
                         <div className="d-flex">
-                            <p>Juangonzalezrose@gmail.com</p>
+                            <a href="email:Juangonzalezrose@gmail.com">Juangonzalezrose@gmail.com</a>
+                            {/* <p>Juangonzalezrose@gmail.com</p> */}
                         </div>
                         <br />
                     </div>
@@ -29,7 +32,7 @@ const Footer = () => {
                                 <br />
                                 <a href="" className="footer-nav">About Me</a>
                                 <br />
-                                <a href="" className="footer-nav">Services</a>
+                                {/* <a href="" className="footer-nav">Services</a> */}
                             </div>
                             <div className="col">
                                 <a href="" className="footer-nav">Experience</a>
@@ -50,12 +53,13 @@ const Footer = () => {
                             >
                                 <LinkedinIcon className="mx-3" size={36} />
                             </LinkedinShareButton>
+                            <a href="" onClick={ () => window.open("https://github.com/Gonzalez32")} ><GoMarkGithub size={36}/></a>
                         </div>
                     </div>
                 </div>
                     <p className="pt-5 text-center">
                         Copyright&copy;
-                        {new Date().getFullYear()}&nbsp;Juan Gonzalez | All Rights Reserved
+                        {new Date().getFullYear()}&nbsp;Juan Gonzalez Portfolio | All Rights Reserved
                     </p>
             </div>
         </div>
