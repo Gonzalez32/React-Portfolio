@@ -24,7 +24,7 @@ const Contacts = () => {
         <div id="contact" className="contacts">
             <div className="text-center">
                 <h1 className="contact-me">Contact Me</h1>
-                <p>Please fill out the form and describe your project and I'll contect you as soon as possible.</p>
+                <p>Please fill out the form & I'll connect with you soon as possible.</p>
             </div>
             <div className="container">
                 <form onSubmit={sendEmail}>
