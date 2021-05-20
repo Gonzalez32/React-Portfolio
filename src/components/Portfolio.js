@@ -16,9 +16,13 @@ const Portfolio = () => {
     const popupboxforfallingstar = () => {
         const content = (
             <>
+                <h3>Falling Star</h3>
+                <br />
                 <img className="portfolio-image-popupbox" src={fallingstar} alt="Falling Star Project..."/>
-                <p>This project Is build with HTML, CSS, and JavaScript</p>
+                <p>This project Is build with HTML, CSS, JavaScript.</p>
                 <b>GitHub:</b> <a href="" className="hyper-link" onClick={ () => window.open("https://github.com/Gonzalez32/FALLING-STAR") }>https://github.com/Gonzalez32/FALLING-STAR</a>
+                <br />
+                <b>Demo:</b> <a href="" className="hyper-link" onClick={ () => window.open("w-oatmeal.surge.sh/") }>w-oatmeal.surge.sh/</a>
             </>
         )
         PopupboxManager.open({content})
@@ -27,7 +31,7 @@ const Portfolio = () => {
     const popupboxConfigFallingStar = {
         titleBar: {
             enable: true,
-            text: "Falling Star Project."
+            // text: "Falling Star Project."
         },
         fadeIn: true,
         fadeInSpeed: 500
@@ -37,8 +41,10 @@ const Portfolio = () => {
     const popupboxfornewpost = () => {
         const content = (
             <>
+                <h3>Newpost</h3>
+                <br />
                 <img className="portfolio-image-popupbox" src={newpost} alt="New Post Project..."/>
-                <p>This project Is build with HTML, CSS, and JavaScript</p>
+                <p>This project Is build with HTML, Python, Django, Bulma.</p>
                 <b>GitHub:</b> <a href="" className="hyper-link" onClick={ () => window.open("https://github.com/Gonzalez32/Newpost") }>https://github.com/Gonzalez32/Newpost</a>
                 <br />
                 <b>Demo:</b> <a href="" className="hyper-link" onClick={ () => window.open("newpostpost.herokuapp.com/") }>newpostpost.herokuapp.com/</a>
@@ -50,7 +56,7 @@ const Portfolio = () => {
     const popupboxConfigNewPost = {
         titleBar: {
             enable: true,
-            text: "New Post Project."
+            // text: "New Post Project."
         },
         fadeIn: true,
         fadeInSpeed: 500
@@ -60,8 +66,10 @@ const Portfolio = () => {
     const popupboxfortapmate = () => {
         const content = (
             <>
+                <h3>Tapmate</h3>
+                <br />
                 <img className="portfolio-image-popupbox" src={tapmate} alt="Tapmate Project..."/>
-                <p>This project Is build with HTML, CSS, and JavaScript</p>
+                <p>This project Is build with HTML, CSS, JavaScript, Node.js, Bulma.</p>
                 <b>GitHub:</b> <a href="" className="hyper-link" onClick={ () => window.open("https://github.com/Gonzalez32/Tapmate") }>https://github.com/Gonzalez32/Tapmate</a>
                 <br />
                 <b>Demo:</b> <a href="" className="hyper-link" onClick={ () => window.open("tap-mate.herokuapp.com/") }>tap-mate.herokuapp.com/</a>
@@ -73,7 +81,7 @@ const Portfolio = () => {
     const popupboxConfigTapmate = {
         titleBar: {
             enable: true,
-            text: "Tapmate Project."
+            // text: "Tapmate Project"
         },
         fadeIn: true,
         fadeInSpeed: 500
