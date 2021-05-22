@@ -22,7 +22,7 @@ const Portfolio = () => {
                 <p>This project Is build with HTML, CSS, JavaScript.</p>
                 <b>GitHub:</b> <a href="" className="hyper-link" onClick={ () => window.open("https://github.com/Gonzalez32/FALLING-STAR") }>https://github.com/Gonzalez32/FALLING-STAR</a>
                 <br />
-                <b>Demo:</b> <a href="" className="hyper-link" onClick={ () => window.open("w-oatmeal.surge.sh/") }>w-oatmeal.surge.sh/</a>
+                <b>Demo:</b> <a href="" className="hyper-link" onClick={ () => window.open("https://w-oatmeal.surge.sh/") }>https://w-oatmeal.surge.sh/</a>
             </>
         )
         PopupboxManager.open({content})
