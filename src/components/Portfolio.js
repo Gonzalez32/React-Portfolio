@@ -47,7 +47,7 @@ const Portfolio = () => {
                 <p>This project Is build with HTML, Python, Django, Bulma.</p>
                 <b>GitHub:</b> <a href="" className="hyper-link" onClick={ () => window.open("https://github.com/Gonzalez32/Newpost") }>https://github.com/Gonzalez32/Newpost</a>
                 <br />
-                <b>Demo:</b> <a href="" className="hyper-link" onClick={ () => window.open("newpostpost.herokuapp.com/") }>newpostpost.herokuapp.com/</a>
+                <b>Demo:</b> <a href="" className="hyper-link" onClick={ () => window.open("https://newpostpost.herokuapp.com/") }>https://newpostpost.herokuapp.com/</a>
             </>
         )
         PopupboxManager.open({content})
@@ -72,7 +72,7 @@ const Portfolio = () => {
                 <p>This project Is build with HTML, CSS, JavaScript, Node.js, Bulma.</p>
                 <b>GitHub:</b> <a href="" className="hyper-link" onClick={ () => window.open("https://github.com/Gonzalez32/Tapmate") }>https://github.com/Gonzalez32/Tapmate</a>
                 <br />
-                <b>Demo:</b> <a href="" className="hyper-link" onClick={ () => window.open("tap-mate.herokuapp.com/") }>tap-mate.herokuapp.com/</a>
+                <b>Demo:</b> <a href="" className="hyper-link" onClick={ () => window.open("https://tap-mate.herokuapp.com/") }>https://tap-mate.herokuapp.com/</a>
             </>
         )
         PopupboxManager.open({content})
