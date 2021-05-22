@@ -16,7 +16,7 @@ const Portfolio = () => {
     const popupboxforfallingstar = () => {
         const content = (
             <>
-                <h3>Falling Star</h3>
+                <h3>Falling Star - (Game Project)</h3>
                 <br />
                 <img className="portfolio-image-popupbox" src={fallingstar} alt="Falling Star Project..."/>
                 <p>This project Is build with HTML, CSS, JavaScript.</p>
@@ -41,7 +41,7 @@ const Portfolio = () => {
     const popupboxfornewpost = () => {
         const content = (
             <>
-                <h3>Newpost</h3>
+                <h3>Newpost - (Blog Project)</h3>
                 <br />
                 <img className="portfolio-image-popupbox" src={newpost} alt="New Post Project..."/>
                 <p>This project Is build with HTML, Python, Django, Bulma.</p>
@@ -66,7 +66,7 @@ const Portfolio = () => {
     const popupboxfortapmate = () => {
         const content = (
             <>
-                <h3>Tapmate</h3>
+                <h3>Tapmate - (Beer Collection Project)</h3>
                 <br />
                 <img className="portfolio-image-popupbox" src={tapmate} alt="Tapmate Project..."/>
                 <p>This project Is build with HTML, CSS, JavaScript, Node.js, Bulma.</p>
