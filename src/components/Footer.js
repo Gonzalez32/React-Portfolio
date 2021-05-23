@@ -5,6 +5,8 @@ import {
 
 } from "react-share";
 import {GoMarkGithub} from "react-icons/go";
+// REACT-SCROLL //
+import { Link } from "react-scroll";
 
 
 const Footer = () => {
@@ -28,7 +30,9 @@ const Footer = () => {
                     <div className="col-lg-3 col-md-2 col-sm-6">
                         <div className="row">
                             <div className="col">
+                                <Link smooth={true} to="home" className="" >
                                 <a href="" className="footer-nav">Home</a>
+                                </Link>
                                 <br />
                                 <a href="" className="footer-nav">About Me</a>
                                 <br />
