@@ -16,7 +16,7 @@ const Footer = () => {
                 <div className="row">
                     <div className="col-lg-4 col-md-6 col-sm-6">
                         <div className="d-flex">
-                            <p>Aurora City Of Lights</p>
+                            <p>Aurora, IL 60506</p>
                         </div>
                         <div className="d-flex">
                             <a href="tel:(360) 809-3218">(360) 809-3218</a>
