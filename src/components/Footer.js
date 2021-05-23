@@ -34,16 +34,24 @@ const Footer = () => {
                                 <a href="" className="footer-nav">Home</a>
                                 </Link>
                                 <br />
-                                <a href="" className="footer-nav">About Me</a>
+                                <Link smooth={true} to="about" offset={-80} className="" >
+                                <a href="" className="footer-nav">About</a>
+                                </Link>
                                 <br />
                                 {/* <a href="" className="footer-nav">Services</a> */}
                             </div>
                             <div className="col">
+                                <Link smooth={true} to="experience" offset={-80} className="" >
                                 <a href="" className="footer-nav">Experience</a>
+                                </Link>
                                 <br />
-                                <a href="" className="footer-nav">Protfolio</a>
+                                <Link smooth={true} to="portfolio" offset={-80} className="" >
+                                <a href="" className="footer-nav">Portfolio</a>
+                                </Link>
                                 <br />
-                                <a href="" className="footer-nav">Contacts</a>
+                                <Link smooth={true} to="contact" offset={-80} className="" >
+                                <a href="" className="footer-nav">Contact</a>
+                                </Link>
                             </div>
                         </div>
                         <br />
