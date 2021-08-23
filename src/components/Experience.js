@@ -23,25 +23,25 @@ const Experience = () => {
                         <li>
                             Falling Star - Game App
                             <ul>
-                                Technology Used: HTML, CSS, JavaScript.
+                                This project I used HTML, CSS, and JavaScript.
                             </ul>
                         </li>
                         <li>
                             Tapmate - Beer Collection App
                             <ul>
-                                Technology Used: HTML, CSS, JavaScript, Node.js, Bulma.
+                                This project I used Node.js, Google Auth, MongoDB, and Bulma for styling.
                             </ul>
                         </li>
                         <li>
                             Munch - Recipe App
                             <ul>
-                                Technology Used: HTML, CSS, JavaScript, Node.js, ReactJS, Bootstrap.
+                                In this project was a team effort, we used Node.js as our back-end and React as our front-end. We also integrated an API for data searching for recipes and we used Bootstrap for styling.  
                             </ul>
                         </li>
                         <li>
                             Newpost - Blog App
                             <ul>
-                                Technology Used: HTML, CSS, Python, Django, Bulma.
+                                For this project I used Django, Postgres, and Bulma for styling.
                             </ul>
                         </li>
                     </div>
