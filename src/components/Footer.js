@@ -70,8 +70,8 @@ const Footer = () => {
                     </div>
                 </div>
                     <p className="pt-5 text-center">
-                        Copyright&copy;
-                        {new Date().getFullYear()}&nbsp;Juan Gonzalez Portfolio | All Rights Reserved
+                        Juan Gonzalez Portfolio | All Rights Reserved Copyright&copy;
+                        {new Date().getFullYear()}&nbsp;
                     </p>
             </div>
         </div>

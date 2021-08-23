@@ -1,5 +1,5 @@
 import React from "react";
-import JuanLogo from "../Image/jg-logo.jpg";
+import JuanLogo from "../Image/logojg.png";
 // REACT-SCROLL //
 import {Link} from "react-scroll";
 // REACT FONTAWESOME IMPORTS NPM

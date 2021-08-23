@@ -62,8 +62,10 @@ nav {
   z-index: 2;
 }
 
+/* **************** NAVBAR LOGO **************** */
 .jg-logo {
-  width: 60px;
+  height: 70px;
+  width: 70px;
   border-radius: 50%;
 }
 
@@ -108,7 +110,7 @@ nav ul li {
 
 .header-wraper {
   position: relative;
-  background: url(./Image/darkrainbowlaptop.jpeg) no-repeat;
+  background: url(./Image/macbook\ pro.jpeg) no-repeat;
   background-size: cover;
   background-position: center;
   height: 100vh;

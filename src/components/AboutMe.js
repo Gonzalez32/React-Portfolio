@@ -13,9 +13,9 @@ const AboutMe = () => {
                 <div className="col-lg-6 col-xm-12">
                     <h1 className="header-aboutme">About Me</h1>
                     <p>
-                        Hello User, It's nice to meet you! Welcome to my Portfoilo, I have a dog named Ferins he's such a goofy boy that love's to play fetch.
-                        My life has been a crazy turn of events. Here I stand with my certificate from GA as a Software Engineer. This Portfolio Is build with ReactJS, a powerful front-end framework.
-                        Bootstrap Is also use as well for a more friendly experience.
+                    General Assembly graduate, looking for an entry level as a full stack developer. 
+                    I'm a self-starter that loves to learn, and who tries to make the most out of difficult situations. 
+                    Ready to make a positive impact, hoping to join a great team and grow within.
                     </p>
                 </div>
             </div>
