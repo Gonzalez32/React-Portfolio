@@ -110,6 +110,7 @@ nav ul li {
 
 .header-wraper {
   position: relative;
+  /* background url: THIS WILL CHANGE THE OUTLOOK WALLPAPER */
   background: url(./Image/macbook\ pro.jpeg) no-repeat;
   background-size: cover;
   background-position: center;

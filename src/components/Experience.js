@@ -10,40 +10,26 @@ const Experience = () => {
                 <div className="timeline-block timeline-block-right">
                     <div className="marker"></div>
                     <div className="timeline-content">
-                        <h3>2020 - PRESENT</h3>
+                        <h3>2021 - PRESENT</h3>
                         <br />
+                        <h1>ENTRY LEVEL DEVELOPER</h1>
                         <h6>
-                            Software Engineering | Fellow, General Assembly - Full Time
+                            Bootcamp Grad & Self-Taught Developer
                         </h6>
-                        <p>
-                            Participated in a full-time, 3 month software engineering immersive, 
-                            completing in-class projects, hackathons, and personal projects focused on real-world applications of principles 
-                            and best practices. Projects include:
-                        </p>
-                        <li>
-                            Falling Star - Game App
-                            <ul>
-                                This project I used HTML, CSS, and JavaScript.
-                            </ul>
-                        </li>
-                        <li>
-                            Tapmate - Beer Collection App
-                            <ul>
-                                This project I used Node.js, Google Auth, MongoDB, and Bulma for styling.
-                            </ul>
-                        </li>
-                        <li>
-                            Munch - Recipe App
-                            <ul>
-                                In this project was a team effort, we used Node.js as our back-end and React as our front-end. We also integrated an API for data searching for recipes and we used Bootstrap for styling.  
-                            </ul>
-                        </li>
-                        <li>
-                            Newpost - Blog App
-                            <ul>
-                                For this project I used Django, Postgres, and Bulma for styling.
-                            </ul>
-                        </li>
+                        <ul>
+                            <li>
+                                Researching and developing new technology design all while adhering to best practices for software development methodology.
+                            </li>
+                            <li>
+                                Troubleshooting and debugging code ensures compatibility with devices, browsers, and operating systems.
+                            </li>
+                            <li>
+                                Currently working with independent clients needs to build company/small business websites.
+                            </li>
+                            <li>
+                                Developing user interfaces with frameworks: React and Flutter.
+                            </li>
+                        </ul>
                     </div>
                 </div>
                 {/* {} */}
@@ -52,11 +38,18 @@ const Experience = () => {
                     <div className="timeline-content">
                         <h3>2017 - 2020</h3>
                         <br />
-                        <h6>RP Painting, West Chicago - Sales Representative</h6>
+                        <h1>RP PAINTING & DECORATING INC.</h1>
+                        <h6>Assistant Project Manager</h6>
                         <p>
-                            Verified purchase orders and acceptable vendors by comparing items/vendors request to catalog. 
-                            Clarify unclear items, recommended alternatives. Foster and maintain strong relationships with 
-                            Operations, Sales, Account Management and Finance.
+                            <ul>
+                                <li>
+                                    Passive language / Doing: Negotiated contracts and provided guidance, direction to both managers and clients.
+                                </li>
+                                <li>
+                                Action language / Achieving: Reduce payroll/benefits administration costs 40% by negotiating pricing and fees, 
+                                while ensuring the continuation and enhancements of our services.
+                                </li>
+                            </ul>
                         </p>
                     </div>
                 </div>    
@@ -64,14 +57,25 @@ const Experience = () => {
                 <div className="timeline-block timeline-block-right">
                     <div className="marker"></div> 
                     <div className="timeline-content">
-                        <h3>2012 - 2016</h3>
+                        <h3>2013 - 2016</h3>
                         <br />
-                        <h6>Glanbia Performance Nutrition(GPN), Aurora - Machine Operator/Assembler</h6>
+                        <h1>GLANBIA PERFORMANCE NUTRITION (GPN)</h1>
+                        <h6>Machine Operator/Assembler/Forklift</h6>
                         <p>
-                            Ensure that work procedures are being followed in a consistent manner (Safety, Quality, GMP, HACCP). 
-                            Perform safety inspections daily with full awareness of all safety points on all machines. 
-                            Understand the differences in powders and quickly troubleshoot in production being able to successfully
-                            perform the procedures associated with allergen. 
+                            <ul>
+                                <li>
+                                    Follow adjusted settings to accurately complete tasks in accordance with FDA and OSHA safety guidelines.
+                                </li>
+                                <li>
+                                    Minimized wasted time and materials that saved the company over $10,000.
+                                </li>
+                                <li>
+                                    Ensure sufficient supply of raw production materials on a daily basis to guarantee uninterrupted workflow.
+                                </li>
+                                <li>
+                                    Determine and report faults in equipment, including filling out hourly inspection sheets based on production quality.
+                                </li>
+                            </ul>
                         </p>
                     </div> 
                 </div>
