@@ -469,7 +469,7 @@ nav ul li {
   padding: 3rem 0;
 }
 .contact-me {
-  color: var(--primary-red);
+  color: var(--primary-yellow);
   padding: 1.3rem 0;
   text-transform: uppercase;
 }
@@ -572,7 +572,7 @@ textarea.form-control {
 
 .footer a:hover {
   text-decoration: none;
-  color: var(--primary-red);
+  color: var(--primary-yellow);
   cursor: pointer;
 }
 
