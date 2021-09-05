@@ -70,7 +70,7 @@ nav {
 }
 
 /* **************** NAVBAR LINKS **************** */
-nav a.nav-link {
+q nav a.nav-link {
   /* font-weight: 500; */
   letter-spacing: 0.9px;
   cursor: pointer;
@@ -194,6 +194,7 @@ nav ul li {
 
 .img-thumbnail-profile {
   width: 16rem;
+  height: 20rem;
   border-radius: 50%;
   padding: 0.3rem;
   border: 1px solid var(--primary-red);
@@ -207,6 +208,7 @@ nav ul li {
 @media (max-width: 468px) {
   .img-thumbnail-profile {
     width: 10rem;
+    height: 13rem;
   }
 }
 
