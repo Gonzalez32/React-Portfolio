@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.0b89c0bb.chunk.css",
-    "main.js": "/static/js/main.48fde45c.chunk.js",
-    "main.js.map": "/static/js/main.48fde45c.chunk.js.map",
+    "main.css": "/static/css/main.707f18b2.chunk.css",
+    "main.js": "/static/js/main.7204e2b2.chunk.js",
+    "main.js.map": "/static/js/main.7204e2b2.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.be7c45e1.js",
     "runtime-main.js.map": "/static/js/runtime-main.be7c45e1.js.map",
     "static/css/2.301e199a.chunk.css": "/static/css/2.301e199a.chunk.css",
@@ -12,12 +12,12 @@
     "static/js/3.52e06290.chunk.js.map": "/static/js/3.52e06290.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.301e199a.chunk.css.map": "/static/css/2.301e199a.chunk.css.map",
-    "static/css/main.0b89c0bb.chunk.css.map": "/static/css/main.0b89c0bb.chunk.css.map",
+    "static/css/main.707f18b2.chunk.css.map": "/static/css/main.707f18b2.chunk.css.map",
     "static/js/2.bcca94e3.chunk.js.LICENSE.txt": "/static/js/2.bcca94e3.chunk.js.LICENSE.txt",
+    "static/media/2021.d16532a2.jpg": "/static/media/2021.d16532a2.jpg",
     "static/media/fallingstar.c19fd686.png": "/static/media/fallingstar.c19fd686.png",
     "static/media/logojg.697dfb81.png": "/static/media/logojg.697dfb81.png",
     "static/media/App.css": "/static/media/macbook pro.b148f70e.jpeg",
-    "static/media/me.f1648750.jpg": "/static/media/me.f1648750.jpg",
     "static/media/newpost.ce9db107.png": "/static/media/newpost.ce9db107.png",
     "static/media/tapmate.6a03a332.png": "/static/media/tapmate.6a03a332.png"
   },
@@ -25,7 +25,7 @@
     "static/js/runtime-main.be7c45e1.js",
     "static/css/2.301e199a.chunk.css",
     "static/js/2.bcca94e3.chunk.js",
-    "static/css/main.0b89c0bb.chunk.css",
-    "static/js/main.48fde45c.chunk.js"
+    "static/css/main.707f18b2.chunk.css",
+    "static/js/main.7204e2b2.chunk.js"
   ]
 }
