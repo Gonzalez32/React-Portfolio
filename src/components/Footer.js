@@ -73,7 +73,6 @@ const Footer = () => {
                         Juan Gonzalez Portfolio | All Rights Reserved Copyright&copy;
                         {new Date().getFullYear()}&nbsp;
                     </p>
-                    
             </div>
         </div>
     )
