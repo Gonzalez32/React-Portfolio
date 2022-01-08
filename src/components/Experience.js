@@ -31,24 +31,24 @@ const Experience = () => {
                         </p>
                         <ul>
                             <li>
-                                Project 1: Falling Star - Moving star left and right into the gaps that render upward until the star hits the upper bar where the game will end and show the user high score. 
-                                Basic front-end functionality using HTML, CSS, and JavaScript.
+                                <b>Project 1: Falling Star</b> - Moving star left and right into the gaps that render upward until the star hits the upper bar where the game will end and show the user high score. 
+                                Basic front-end functionality using <b>HTML</b>, <b>CSS</b>, and <b>JavaScript</b>.
                             </li>
                             <br />
                             <li>
-                                Project 2: Tapmate - Beer collection app where users can login and use the message board, add other users, see other user beer lists, and find beers on the search page. 
-                                I use an API for the endpoints of each beer = [description, ingredients, beer tagline, first brewed, brewers tips, and my favorite food pairing]. 
-                                Using Node.Js, Express.Js, MongoDB, CSS, HTML, Bulma, Punk API, Heroku Deployment, and Google Auth.
+                                <b>Project 2: Tapmate</b> - Beer collection app where users can login and use the message board, add other users, see other user beer lists, and find beers on the search page. 
+                                I use an <b>API</b> for the endpoints of each beer = [description, ingredients, beer tagline, first brewed, brewers tips, and my favorite food pairing]. 
+                                Using <b>Node.Js</b>, <b>Express.Js</b>, <b>MongoDB</b>, <b>CSS</b>, <b>HTML</b>, <b>Bulma</b>, <b>Punk API</b>, <b>Heroku Deployment</b>, and <b>Google Auth</b>.
                             </li>
                             <br />
                             <li>
-                                Project 3: Munch - Recipe app, fully functioning MERN full-stack prototype with full CRUD. 
-                                Built as a team using MongoDB, Express.Js, React, Node.Js, Edamam Recipe Search API, Heroku Deployment, and Bootstrap.
+                                <b>Project 3: Munch</b> - Recipe app, fully functioning MERN full-stack prototype with full CRUD. 
+                                Built as a team using <b>MongoDB</b>, <b>Express.Js</b>, <b>React</b>, <b>Node.Js</b>, <b>Edamam Recipe Search API</b>, <b>Heroku Deployment</b>, and <b>Bootstrap</b>.
                             </li>
                             <br />
                             <li>
-                                Project 4: Newpost - A dynamic, blog post app where users can login and create a post publicly. 
-                                This project Is a full-stack web app providing full CRUD, built on Django, PostgreSQL, Heroku Deployment, HTML, CSS, and Bulma.
+                                <b>Project 4: Newpost</b> - A dynamic, blog post app where users can login and create a post publicly. 
+                                This project Is a full-stack web app providing full CRUD, built on <b>Django</b>, <b>PostgreSQL</b>, <b>Heroku Deployment</b>, <b>HTML</b>, <b>CSS</b>, and <b>Bulma</b>.
                             </li>
                         </ul>
                     </div>
