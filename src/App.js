@@ -39,6 +39,7 @@ function App() {
       <Navbar/>
       <Header/>
       <AboutMe/>
+      {/* Comment: service is not function at the moment. - Might want to re-created a new <tag/> */}
       {/* <Services/> */}
       <Experience/>
       <Portfolio/>
