@@ -6,9 +6,10 @@ const Experience = () => {
             <div className="d-flex justify-content-center my-5">
                 <h1>Experience</h1>
             </div>
-            {/* Working on adding new job experience with my current job */}
-             {/* {} */}
-             <div className="timeline-block timeline-block-left">
+            {/* New experience is added 11/19/2023 */}
+            {/* {} */}
+            <div className="container experience-wrapper">
+            <div className="timeline-block timeline-block-left">
                     <div className="marker"></div>
                     <div className="timeline-content">
                         <h3>2022 - Present</h3>
@@ -17,7 +18,7 @@ const Experience = () => {
                             Experian
                         </h1>
                         <h3>
-                            Full-Time Remote
+                            Remote
                         </h3>
                         <h6>
                             Production Support Engineer-Clarity Systems
@@ -51,7 +52,6 @@ const Experience = () => {
                     </div>
                 </div>    
                 {/* {} */}
-            <div className="container experience-wrapper">
                 <div className="timeline-block timeline-block-right">
                     <div className="marker"></div>
                     <div className="timeline-content">
