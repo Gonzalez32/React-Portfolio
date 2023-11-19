@@ -193,10 +193,10 @@ nav ul li {
 }
 
 .img-thumbnail-profile {
-  width: 16rem;
+  width: 14rem;
   height: 20rem;
-  border-radius: 50%;
-  padding: 0.3rem;
+  border-radius: 20%;
+  padding: 0.2rem;
   border: 1px solid var(--primary-red);
 }
 
@@ -208,7 +208,7 @@ nav ul li {
 @media (max-width: 468px) {
   .img-thumbnail-profile {
     width: 10rem;
-    height: 13rem;
+    height: 14rem;
   }
 }
 
