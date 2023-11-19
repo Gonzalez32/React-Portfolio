@@ -7,45 +7,55 @@ const Experience = () => {
                 <h1>Experience</h1>
             </div>
             {/* Working on adding new job experience with my current job */}
-            <div className="timeline-block timeline-block-left">
+             {/* {} */}
+             <div className="timeline-block timeline-block-left">
                     <div className="marker"></div>
                     <div className="timeline-content">
-                        <h3>2018 - 2020</h3>
+                        <h3>2022 - Present</h3>
                         <br />
                         <h1>
-                            Smithfield
+                            Experian
                         </h1>
                         <h3>
-                            St. Charles, IL
+                            Full-Time Remote
                         </h3>
                         <h6>
-                            1st Shift Machine Operator/ Operations
+                            Production Support Engineer-Clarity Systems
                         </h6>
                         <br />
                         <ul>
                             <li>
-                                Daily stand-up 1st shift operations supervisor talks about our goals, production-flow-chart, safety guidelines (PPE, OSHA, FDA), and reports any Issue.
+                                Assists with customer account set ups for data transfers and delivery of technical knowledge and integration, especially in the onboarding (implementation) phase.
                             </li>
                             <br />
                             <li>
-                                Depending on the production schedule, my task can be very unpredictable and must be okay with constant change.
+                                Provides customer service to answer technical questions about how the Clarity system works, and to help resolve customer usage difficulties.
                             </li>
                             <br />
                             <li>
-                                Performing many tasks requiring continuous/repetitive movement, physically demanding, lifting up to 30 lbs to 60 lbs bags of spices and raw frozen meat.
+                                Work with customers during and after product integration using problem solving techniques. This may involve analyzing code and other documents for clues, writing scripts, training customers how to use the product effectively, running reports and completing file transfers.
                             </li>
                             <br />
                             <li>
-                                Fully trained and certified forklift operator. I gain a lot of experience operating machinery In a fast-paced production environment and with my strong work ethic.
+                                Provide status updates on assigned work to management and account management staff.
+                            </li>
+                            <br />
+                            <li>
+                                Review reporting data for compliance and work with customers to resolve issues.
+                            </li>
+                            <br />
+                            <li>
+                                Complete routine advanced administrative procedures.
                             </li>
                         </ul>
                     </div>
                 </div>    
+                {/* {} */}
             <div className="container experience-wrapper">
                 <div className="timeline-block timeline-block-right">
                     <div className="marker"></div>
                     <div className="timeline-content">
-                        <h3>2021</h3>
+                        <h3>Nov 2020 - Feb 2021</h3>
                         <br />
                         {/* company */}
                         <h1>
