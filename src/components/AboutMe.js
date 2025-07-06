@@ -14,11 +14,7 @@ const AboutMe = () => {
                     <h1 className="header-aboutme">About Me</h1>
                     <br />
                     <p>
-                        I am a full-stack engineer who tries to make the most out of difficult situations. 
-                        I'm not comfortable with settling and I’m always looking for opportunities to do better. 
-                        I still get nervous at daily stand-up and stand-down, but I enjoy these moments because we’re all together as a team.
-                        I am excited to solve, adept at learning quickly with a driven and positive attitude. 
-                        I look to find new creative ways to inspire and better the lives of others.
+                        I am driven by opportunity, and thrive in working with strong teams valuing growth, innovation, and mutual support. Helping others is something I take great pride in, actively contributing and mentoring with knowledge from my experiences, successes and failures, ensuring everyone has the tools and knowledge to succeed. My goal is to build scalable, impactful solutions while fostering a culture of learning and collaboration.
                     </p>
                 </div>
             </div>
