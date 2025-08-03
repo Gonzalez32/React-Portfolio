@@ -109,6 +109,40 @@ const Portfolio = () => {
         fadeInSpeed: 500
     }
 
+    // FANTASY FOOTBALL NEWSLETTER
+    const popupboxforfantasyfootball = () => {
+        const content = (
+            <>
+                <h1>
+                    FANTASY FOOTBALL NEWSLETTER
+                </h1>
+                <br />
+                <div className="portfolio-image-popupbox" style={{backgroundColor: '#f0f0f0', padding: '20px', textAlign: 'center'}}>
+                    <p style={{fontSize: '18px', color: '#666'}}>🏈 Fantasy Football Newsletter</p>
+                    <p style={{fontSize: '14px', color: '#888'}}>Add your project image here</p>
+                </div>
+                <ul>
+                    <li>
+                        <b>GitHub:</b> <a href="" className="hyper-link" onClick={ () => window.open("https://github.com/Gonzalez32") }>https://github.com/Gonzalez32</a>
+                    </li>
+                    <li>
+                        <b>Demo:</b> <a href="" className="hyper-link" onClick={ () => window.open("https://fantasyfootballnewsletter.net/") }>https://fantasyfootballnewsletter.net/</a>
+                    </li>
+                </ul>
+            </>
+        )
+        PopupboxManager.open({content})
+    }
+
+    const popupboxConfigFantasyFootball = {
+        titleBar: {
+            enable: true,
+            // text: "Fantasy Football Newsletter Project"
+        },
+        fadeIn: true,
+        fadeInSpeed: 500
+    }
+
     return (
         <div id="portfolio" className="portfolio-wrapper">
             <div className="container">
@@ -131,11 +165,23 @@ const Portfolio = () => {
                         <div className="overflow"></div>
                         <FontAwesomeIcon className="portfolio-icon" icon={faSearchPlus} />
                     </div>    
+                {/* - */}
+                    <div className="portfolio-image-box" onClick={popupboxforfantasyfootball}>
+                        <div style={{backgroundColor: '#f0f0f0', height: '100%', display: 'flex', alignItems: 'center', justifyContent: 'center'}}>
+                            <div style={{textAlign: 'center', color: '#666'}}>
+                                <div style={{fontSize: '48px', marginBottom: '10px'}}>🏈</div>
+                                <div style={{fontSize: '14px'}}>Fantasy Football Newsletter</div>
+                            </div>
+                        </div>
+                        <div className="overflow"></div>
+                        <FontAwesomeIcon className="portfolio-icon" icon={faSearchPlus} />
+                    </div>    
                 </div>
             </div>
             <PopupboxContainer {...popupboxConfigFallingStar}/>
             <PopupboxContainer {...popupboxConfigNewPost}/>
             <PopupboxContainer {...popupboxConfigTapmate}/>
+            <PopupboxContainer {...popupboxConfigFantasyFootball}/>
         </div>
     )
 }
