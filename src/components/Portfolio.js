@@ -2,6 +2,7 @@ import React from "react";
 import fallingstar from "../Image/fallingstar.png";
 import newpost from "../Image/newpost.png";
 import tapmate from "../Image/tapmate.png";
+import fantasy_newsletter from "../Image/fantasy_newsletter.png";
 // FONTAWESOME IMPORTS
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faSearchPlus } from "@fortawesome/free-solid-svg-icons";
@@ -117,16 +118,13 @@ const Portfolio = () => {
                     FANTASY FOOTBALL NEWSLETTER
                 </h1>
                 <br />
-                <div className="portfolio-image-popupbox" style={{backgroundColor: '#f0f0f0', padding: '20px', textAlign: 'center'}}>
-                    <p style={{fontSize: '18px', color: '#666'}}>🏈 Fantasy Football Newsletter</p>
-                    <p style={{fontSize: '14px', color: '#888'}}>Add your project image here</p>
-                </div>
+                <img className="portfolio-image-popupbox" src={fantasy_newsletter} alt="Fantasy Football Newsletter Project..."/>
                 <ul>
                     <li>
                         <b>GitHub:</b> <a href="" className="hyper-link" onClick={ () => window.open("https://github.com/Gonzalez32") }>https://github.com/Gonzalez32</a>
                     </li>
                     <li>
-                        <b>Demo:</b> <a href="" className="hyper-link" onClick={ () => window.open("https://fantasyfootballnewsletter.net/") }>https://fantasyfootballnewsletter.net/</a>
+                        <b>Website:</b> <a href="" className="hyper-link" onClick={ () => window.open("https://fantasyfootballnewsletter.net/") }>https://fantasyfootballnewsletter.net/</a>
                     </li>
                 </ul>
             </>
@@ -167,12 +165,7 @@ const Portfolio = () => {
                     </div>    
                 {/* - */}
                     <div className="portfolio-image-box" onClick={popupboxforfantasyfootball}>
-                        <div style={{backgroundColor: '#f0f0f0', height: '100%', display: 'flex', alignItems: 'center', justifyContent: 'center'}}>
-                            <div style={{textAlign: 'center', color: '#666'}}>
-                                <div style={{fontSize: '48px', marginBottom: '10px'}}>🏈</div>
-                                <div style={{fontSize: '14px'}}>Fantasy Football Newsletter</div>
-                            </div>
-                        </div>
+                        <img src={fantasy_newsletter} alt="fantasy football newsletter project..." className="portfolio-image"/>
                         <div className="overflow"></div>
                         <FontAwesomeIcon className="portfolio-icon" icon={faSearchPlus} />
                     </div>    
